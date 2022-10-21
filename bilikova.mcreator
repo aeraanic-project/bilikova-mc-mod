@@ -1,13 +1,47 @@
 {
-  "mod_elements": [],
+  "mod_elements": [
+    {
+      "name": "Tucnytest",
+      "type": "livingentity",
+      "sortid": 1,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "tucnytest"
+    }
+  ],
   "variable_elements": [],
   "sound_elements": [],
   "language_map": {
-    "en_us": {}
+    "en_us": {
+      "entity.bilikova.tucnytest": "Tucnytest",
+      "item.bilikova.tucnytest_spawn_egg": "Tucnytest Spawn Egg"
+    }
   },
   "foldersRoot": {
     "name": "~",
-    "children": []
+    "children": [
+      {
+        "name": "debatnykruzok",
+        "children": [
+          {
+            "name": "entity",
+            "children": []
+          },
+          {
+            "name": "ingoty",
+            "children": []
+          }
+        ]
+      },
+      {
+        "name": "zamestnanci",
+        "children": []
+      },
+      {
+        "name": "ostatneentity",
+        "children": []
+      }
+    ]
   },
   "workspaceSettings": {
     "modid": "bilikova",
