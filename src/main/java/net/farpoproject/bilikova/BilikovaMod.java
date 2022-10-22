@@ -29,6 +29,7 @@ import net.minecraft.network.FriendlyByteBuf;
 import net.farpoproject.bilikova.init.BilikovaModTabs;
 import net.farpoproject.bilikova.init.BilikovaModItems;
 import net.farpoproject.bilikova.init.BilikovaModEntities;
+import net.farpoproject.bilikova.init.BilikovaModBlocks;
 
 import java.util.function.Supplier;
 import java.util.function.Function;
@@ -46,7 +47,7 @@ public class BilikovaMod {
 	public BilikovaMod() {
 		BilikovaModTabs.load();
 		IEventBus bus = FMLJavaModLoadingContext.get().getModEventBus();
-
+		BilikovaModBlocks.REGISTRY.register(bus);
 		BilikovaModItems.REGISTRY.register(bus);
 		BilikovaModEntities.REGISTRY.register(bus);
 

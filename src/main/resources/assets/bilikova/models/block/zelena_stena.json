@@ -1,0 +1,12 @@
+{
+  "parent": "block/cube",
+  "textures": {
+    "down": "bilikova:blocks/zelenastena",
+    "up": "bilikova:blocks/zelenastena",
+    "north": "bilikova:blocks/zelenastena",
+    "east": "bilikova:blocks/zelenastena",
+    "south": "bilikova:blocks/zelenastena",
+    "west": "bilikova:blocks/zelenastena",
+    "particle": "bilikova:blocks/zelenastena"
+  }
+}

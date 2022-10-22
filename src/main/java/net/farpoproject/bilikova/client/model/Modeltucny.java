@@ -79,6 +79,7 @@ public class Modeltucny<T extends Entity> extends EntityModel<T> {
 		this.armr2.xRot = Mth.cos(limbSwing * 0.6662F + (float) Math.PI) * limbSwingAmount;
 		this.head.yRot = netHeadYaw / (180F / (float) Math.PI);
 		this.head.xRot = headPitch / (180F / (float) Math.PI);
+		this.torso.xRot = Mth.cos(limbSwing * 1.0F) * -1.0F * limbSwingAmount;
 		this.legsr.xRot = Mth.cos(limbSwing * 1.0F) * 1.0F * limbSwingAmount;
 		this.arml.xRot = Mth.cos(limbSwing * 0.6662F) * limbSwingAmount;
 	}

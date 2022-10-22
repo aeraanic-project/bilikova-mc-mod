@@ -1,0 +1,12 @@
+{
+  "parent": "block/cube",
+  "textures": {
+    "down": "bilikova:blocks/brizolits",
+    "up": "bilikova:blocks/brizolits",
+    "north": "bilikova:blocks/brizolits",
+    "east": "bilikova:blocks/brizolits",
+    "south": "bilikova:blocks/brizolits",
+    "west": "bilikova:blocks/brizolits",
+    "particle": "bilikova:blocks/brizolits"
+  }
+}

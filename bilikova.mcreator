@@ -158,6 +158,24 @@
         ]
       },
       "path": "~/tucny"
+    },
+    {
+      "name": "ZelenaStena",
+      "type": "block",
+      "sortid": 11,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "zelena_stena",
+      "path": "~/bloky"
+    },
+    {
+      "name": "BrizoliiVonko",
+      "type": "block",
+      "sortid": 12,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "brizolii_vonko",
+      "path": "~/bloky"
     }
   ],
   "variable_elements": [],
@@ -167,7 +185,9 @@
       "entity.bilikova.tucnytest": "Tucnytest",
       "item.bilikova.tucnytest_spawn_egg": "Tucnytest Spawn Egg",
       "itemGroup.tabbilikovaitemy": "Bilikova itemy",
-      "itemGroup.tabbilikova_mobovia": "Bilikova mobovia"
+      "block.bilikova.zelena_stena": "Zelena Stena",
+      "itemGroup.tabbilikova_mobovia": "Bilikova mobovia",
+      "block.bilikova.brizolii_vonko": "Brizolii Vonko"
     }
   },
   "foldersRoot": {
@@ -192,6 +212,10 @@
       },
       {
         "name": "ostatneentity",
+        "children": []
+      },
+      {
+        "name": "bloky",
         "children": []
       }
     ]
