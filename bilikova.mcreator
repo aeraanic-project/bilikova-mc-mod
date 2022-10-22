@@ -7,6 +7,157 @@
       "compiles": true,
       "locked_code": false,
       "registry_name": "tucnytest"
+    },
+    {
+      "name": "Bilikovaitemy",
+      "type": "tab",
+      "sortid": 3,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "bilikovaitemy"
+    },
+    {
+      "name": "BilikovaMobovia",
+      "type": "tab",
+      "sortid": 4,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "bilikova_mobovia"
+    },
+    {
+      "name": "TucnytestOnInitialEntitySpawn",
+      "type": "procedure",
+      "sortid": 5,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "tucnytest_on_initial_entity_spawn",
+      "metadata": {
+        "dependencies": [
+          {
+            "name": "entity",
+            "type": "entity"
+          },
+          {
+            "name": "world",
+            "type": "world"
+          }
+        ]
+      },
+      "path": "~/tucny"
+    },
+    {
+      "name": "TucnytestRightClickedOnEntity",
+      "type": "procedure",
+      "sortid": 5,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "tucnytest_right_clicked_on_entity",
+      "metadata": {
+        "dependencies": [
+          {
+            "name": "entity",
+            "type": "entity"
+          },
+          {
+            "name": "sourceentity",
+            "type": "entity"
+          },
+          {
+            "name": "x",
+            "type": "number"
+          },
+          {
+            "name": "y",
+            "type": "number"
+          },
+          {
+            "name": "z",
+            "type": "number"
+          },
+          {
+            "name": "world",
+            "type": "world"
+          }
+        ]
+      },
+      "path": "~/tucny"
+    },
+    {
+      "name": "Tucnytradingguy",
+      "type": "gui",
+      "sortid": 6,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "tucnytradingguy",
+      "path": "~/tucny"
+    },
+    {
+      "name": "Davajitem",
+      "type": "procedure",
+      "sortid": 7,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "davajitem",
+      "metadata": {
+        "dependencies": [
+          {
+            "name": "entity",
+            "type": "entity"
+          }
+        ]
+      },
+      "path": "~/tucny"
+    },
+    {
+      "name": "Nextpagetucny",
+      "type": "procedure",
+      "sortid": 8,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "nextpagetucny",
+      "metadata": {
+        "dependencies": [
+          {
+            "name": "entity",
+            "type": "entity"
+          }
+        ]
+      },
+      "path": "~/tucny"
+    },
+    {
+      "name": "Previuspagetucny",
+      "type": "procedure",
+      "sortid": 9,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "previuspagetucny",
+      "metadata": {
+        "dependencies": [
+          {
+            "name": "entity",
+            "type": "entity"
+          }
+        ]
+      },
+      "path": "~/tucny"
+    },
+    {
+      "name": "Tucnyprecpeniaz",
+      "type": "procedure",
+      "sortid": 10,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "tucnyprecpeniaz",
+      "metadata": {
+        "dependencies": [
+          {
+            "name": "entity",
+            "type": "entity"
+          }
+        ]
+      },
+      "path": "~/tucny"
     }
   ],
   "variable_elements": [],
@@ -14,7 +165,9 @@
   "language_map": {
     "en_us": {
       "entity.bilikova.tucnytest": "Tucnytest",
-      "item.bilikova.tucnytest_spawn_egg": "Tucnytest Spawn Egg"
+      "item.bilikova.tucnytest_spawn_egg": "Tucnytest Spawn Egg",
+      "itemGroup.tabbilikovaitemy": "Bilikova itemy",
+      "itemGroup.tabbilikova_mobovia": "Bilikova mobovia"
     }
   },
   "foldersRoot": {
@@ -34,7 +187,7 @@
         ]
       },
       {
-        "name": "zamestnanci",
+        "name": "tucny",
         "children": []
       },
       {

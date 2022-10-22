@@ -1,0 +1,84 @@
+{
+  "_fv": 33,
+  "_type": "gui",
+  "definition": {
+    "type": 1,
+    "width": 176,
+    "height": 166,
+    "inventoryOffsetX": 0,
+    "inventoryOffsetY": 0,
+    "renderBgLayer": true,
+    "doesPauseGame": false,
+    "components": [
+      {
+        "type": "button",
+        "data": {
+          "text": "Next",
+          "onClick": {
+            "name": "Nextpagetucny"
+          },
+          "width": 46,
+          "height": 20,
+          "name": "Next",
+          "x": 249,
+          "y": 89
+        }
+      },
+      {
+        "type": "button",
+        "data": {
+          "text": "Previus",
+          "onClick": {
+            "name": "Previuspagetucny"
+          },
+          "width": 61,
+          "height": 20,
+          "name": "Previus",
+          "x": 132,
+          "y": 89
+        }
+      },
+      {
+        "type": "inputslot",
+        "data": {
+          "inputLimit": {
+            "value": ""
+          },
+          "id": 0,
+          "disableStackInteraction": false,
+          "dropItemsWhenNotBound": true,
+          "onSlotChanged": {
+            "name": "Davajitem"
+          },
+          "name": "Slot #0",
+          "x": 150,
+          "y": 62
+        }
+      },
+      {
+        "type": "outputslot",
+        "data": {
+          "id": 1,
+          "disableStackInteraction": false,
+          "dropItemsWhenNotBound": true,
+          "onTakenFromSlot": {
+            "name": "Tucnyprecpeniaz"
+          },
+          "onStackTransfer": {
+            "name": "Tucnyprecpeniaz"
+          },
+          "name": "Slot #1",
+          "x": 258,
+          "y": 62
+        }
+      }
+    ],
+    "gridSettings": {
+      "sx": 18,
+      "sy": 18,
+      "ox": 11,
+      "oy": 15,
+      "snapOnGrid": true
+    }
+  }
+}

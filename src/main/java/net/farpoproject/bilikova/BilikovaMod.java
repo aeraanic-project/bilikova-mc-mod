@@ -26,6 +26,7 @@ import net.minecraftforge.eventbus.api.IEventBus;
 import net.minecraft.resources.ResourceLocation;
 import net.minecraft.network.FriendlyByteBuf;
 
+import net.farpoproject.bilikova.init.BilikovaModTabs;
 import net.farpoproject.bilikova.init.BilikovaModItems;
 import net.farpoproject.bilikova.init.BilikovaModEntities;
 
@@ -43,7 +44,7 @@ public class BilikovaMod {
 	private static int messageID = 0;
 
 	public BilikovaMod() {
-
+		BilikovaModTabs.load();
 		IEventBus bus = FMLJavaModLoadingContext.get().getModEventBus();
 
 		BilikovaModItems.REGISTRY.register(bus);

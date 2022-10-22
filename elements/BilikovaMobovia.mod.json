@@ -1,0 +1,11 @@
+{
+  "_fv": 33,
+  "_type": "tab",
+  "definition": {
+    "name": "Bilikova mobovia",
+    "icon": {
+      "value": "Items.GLOW_SQUID_SPAWN_EGG"
+    },
+    "showSearch": false
+  }
+}
