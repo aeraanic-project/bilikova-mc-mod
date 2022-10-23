@@ -1,8 +1,11 @@
 {
   "entity.bilikova.tucnytest": "Tucnytest",
   "item.bilikova.tucnytest_spawn_egg": "Tucnytest Spawn Egg",
+  "item.bilikova.biliko_ingot": "Biliko Ingot",
+  "item.bilikova.copper_square_of_summoning": "Copper Square Of Summoning",
   "itemGroup.tabbilikovaitemy": "Bilikova itemy",
   "block.bilikova.zelena_stena": "Zelena Stena",
   "itemGroup.tabbilikova_mobovia": "Bilikova mobovia",
-  "block.bilikova.brizolii_vonko": "Brizolii Vonko"
+  "block.bilikova.brizolii_vonko": "Brizolii Vonko",
+  "block.bilikova.bilikoblock": "Bilikova block"
 }

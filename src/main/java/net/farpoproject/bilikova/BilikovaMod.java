@@ -28,6 +28,7 @@ import net.minecraft.network.FriendlyByteBuf;
 
 import net.farpoproject.bilikova.init.BilikovaModTabs;
 import net.farpoproject.bilikova.init.BilikovaModItems;
+import net.farpoproject.bilikova.init.BilikovaModFeatures;
 import net.farpoproject.bilikova.init.BilikovaModEntities;
 import net.farpoproject.bilikova.init.BilikovaModBlocks;
 
@@ -50,6 +51,8 @@ public class BilikovaMod {
 		BilikovaModBlocks.REGISTRY.register(bus);
 		BilikovaModItems.REGISTRY.register(bus);
 		BilikovaModEntities.REGISTRY.register(bus);
+
+		BilikovaModFeatures.REGISTRY.register(bus);
 
 	}
 

@@ -1,0 +1,41 @@
+{
+  "type": "minecraft:crafting_shaped",
+  "pattern": [
+    "012",
+    "345",
+    "678"
+  ],
+  "key": {
+    "0": {
+      "item": "bilikova:biliko_ingot"
+    },
+    "1": {
+      "item": "bilikova:biliko_ingot"
+    },
+    "2": {
+      "item": "bilikova:biliko_ingot"
+    },
+    "3": {
+      "item": "bilikova:biliko_ingot"
+    },
+    "4": {
+      "item": "bilikova:copper_square_of_summoning"
+    },
+    "5": {
+      "item": "bilikova:biliko_ingot"
+    },
+    "6": {
+      "item": "bilikova:biliko_ingot"
+    },
+    "7": {
+      "item": "bilikova:biliko_ingot"
+    },
+    "8": {
+      "item": "bilikova:biliko_ingot"
+    }
+  },
+  "result": {
+    "item": "bilikova:bilikoblock",
+    "count": 1
+  }
+}

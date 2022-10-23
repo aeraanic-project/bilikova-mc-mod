@@ -1,0 +1,12 @@
+{
+  "parent": "block/cube",
+  "textures": {
+    "down": "bilikova:blocks/bilikblock",
+    "up": "bilikova:blocks/bilikblock",
+    "north": "bilikova:blocks/bilikblock",
+    "east": "bilikova:blocks/bilikblock",
+    "south": "bilikova:blocks/bilikblock",
+    "west": "bilikova:blocks/bilikblock",
+    "particle": "bilikova:blocks/bilikblock"
+  }
+}

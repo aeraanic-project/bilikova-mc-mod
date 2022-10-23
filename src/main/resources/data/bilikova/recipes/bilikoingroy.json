@@ -1,0 +1,12 @@
+{
+  "type": "minecraft:smithing",
+  "base": {
+    "item": "minecraft:redstone_block"
+  },
+  "addition": {
+    "item": "minecraft:bookshelf"
+  },
+  "result": {
+    "item": "bilikova:biliko_ingot"
+  }
+}

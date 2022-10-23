@@ -14,6 +14,8 @@ import net.minecraft.world.item.Item;
 import net.minecraft.world.item.CreativeModeTab;
 import net.minecraft.world.item.BlockItem;
 
+import net.farpoproject.bilikova.item.CopperSquareOfSummoningItem;
+import net.farpoproject.bilikova.item.BilikoIngotItem;
 import net.farpoproject.bilikova.BilikovaMod;
 
 public class BilikovaModItems {
@@ -23,6 +25,10 @@ public class BilikovaModItems {
 					new Item.Properties().tab(BilikovaModTabs.TAB_BILIKOVA_MOBOVIA)));
 	public static final RegistryObject<Item> ZELENA_STENA = block(BilikovaModBlocks.ZELENA_STENA, BilikovaModTabs.TAB_BILIKOVAITEMY);
 	public static final RegistryObject<Item> BRIZOLII_VONKO = block(BilikovaModBlocks.BRIZOLII_VONKO, BilikovaModTabs.TAB_BILIKOVAITEMY);
+	public static final RegistryObject<Item> BILIKOBLOCK = block(BilikovaModBlocks.BILIKOBLOCK, BilikovaModTabs.TAB_BILIKOVAITEMY);
+	public static final RegistryObject<Item> BILIKO_INGOT = REGISTRY.register("biliko_ingot", () -> new BilikoIngotItem());
+	public static final RegistryObject<Item> COPPER_SQUARE_OF_SUMMONING = REGISTRY.register("copper_square_of_summoning",
+			() -> new CopperSquareOfSummoningItem());
 
 	private static RegistryObject<Item> block(RegistryObject<Block> block, CreativeModeTab tab) {
 		return REGISTRY.register(block.getId().getPath(), () -> new BlockItem(block.get(), new Item.Properties().tab(tab)));
