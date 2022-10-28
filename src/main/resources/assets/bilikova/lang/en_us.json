@@ -1,12 +1,12 @@
 {
+  "item.bilikova.kolobezka": "Kolobezka",
   "entity.bilikova.tucnytest": "Tucnytest",
   "item.bilikova.tucnytest_spawn_egg": "Tucnytest Spawn Egg",
-  "block.bilikova.zelena_stena": "Zelena Stena",
-  "itemGroup.tabbilikova_mobovia": "Bilikova mobovia",
-  "block.bilikova.bilikoblock": "Bilikova block",
-  "item.bilikova.kolobezka": "Kolobezka",
   "item.bilikova.biliko_ingot": "Biliko Ingot",
   "item.bilikova.copper_square_of_summoning": "Copper Square Of Summoning",
+  "block.bilikova.zelena_stena": "Zelena Stena",
   "itemGroup.tabbilikovaitemy": "Bilikova itemy",
+  "itemGroup.tabbilikova_mobovia": "Bilikova mobovia",
+  "block.bilikova.bilikoblock": "Bilikova block",
   "block.bilikova.brizolii_vonko": "Brizolii Vonko"
 }
