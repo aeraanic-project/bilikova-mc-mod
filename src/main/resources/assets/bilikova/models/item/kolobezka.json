@@ -1,0 +1,7 @@
+{
+  "parent": "bilikova:custom/koolobezka",
+  "textures": {
+    "0": "bilikova:blocks/texture",
+    "particle": "bilikova:items/texture"
+  }
+}

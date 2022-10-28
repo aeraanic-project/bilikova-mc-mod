@@ -260,12 +260,56 @@
       "compiles": true,
       "locked_code": false,
       "registry_name": "summonsquare"
+    },
+    {
+      "name": "Kolobezka",
+      "type": "tool",
+      "sortid": 20,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "kolobezka",
+      "path": "~/items"
+    },
+    {
+      "name": "Kolobezkadavaeffect",
+      "type": "procedure",
+      "sortid": 21,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "kolobezkadavaeffect",
+      "metadata": {
+        "dependencies": [
+          {
+            "name": "entity",
+            "type": "entity"
+          }
+        ]
+      },
+      "path": "~/items"
+    },
+    {
+      "name": "Liteta",
+      "type": "procedure",
+      "sortid": 22,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "liteta",
+      "metadata": {
+        "dependencies": [
+          {
+            "name": "entity",
+            "type": "entity"
+          }
+        ]
+      },
+      "path": "~/items"
     }
   ],
   "variable_elements": [],
   "sound_elements": [],
   "language_map": {
     "en_us": {
+      "item.bilikova.kolobezka": "Kolobezka",
       "entity.bilikova.tucnytest": "Tucnytest",
       "item.bilikova.tucnytest_spawn_egg": "Tucnytest Spawn Egg",
       "item.bilikova.biliko_ingot": "Biliko Ingot",
@@ -303,6 +347,10 @@
       },
       {
         "name": "bloky",
+        "children": []
+      },
+      {
+        "name": "items",
         "children": []
       }
     ]
