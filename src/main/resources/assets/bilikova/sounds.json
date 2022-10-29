@@ -1,0 +1,12 @@
+{
+  "mnegafontest": {
+    "category": "voice",
+    "subtitle": "subtitles.mnegafontest",
+    "sounds": [
+      {
+        "name": "bilikova:nie",
+        "stream": false
+      }
+    ]
+  }
+}

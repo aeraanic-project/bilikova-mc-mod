@@ -14,6 +14,7 @@ import net.minecraft.world.item.Item;
 import net.minecraft.world.item.CreativeModeTab;
 import net.minecraft.world.item.BlockItem;
 
+import net.farpoproject.bilikova.item.MegafonItem;
 import net.farpoproject.bilikova.item.KolobezkaItem;
 import net.farpoproject.bilikova.item.CopperSquareOfSummoningItem;
 import net.farpoproject.bilikova.item.BilikoIngotItem;
@@ -31,6 +32,7 @@ public class BilikovaModItems {
 	public static final RegistryObject<Item> COPPER_SQUARE_OF_SUMMONING = REGISTRY.register("copper_square_of_summoning",
 			() -> new CopperSquareOfSummoningItem());
 	public static final RegistryObject<Item> KOLOBEZKA = REGISTRY.register("kolobezka", () -> new KolobezkaItem());
+	public static final RegistryObject<Item> MEGAFON = REGISTRY.register("megafon", () -> new MegafonItem());
 
 	private static RegistryObject<Item> block(RegistryObject<Block> block, CreativeModeTab tab) {
 		return REGISTRY.register(block.getId().getPath(), () -> new BlockItem(block.get(), new Item.Properties().tab(tab)));

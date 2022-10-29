@@ -1,0 +1,7 @@
+{
+  "parent": "bilikova:custom/megafon",
+  "textures": {
+    "0": "bilikova:blocks/wd",
+    "particle": "bilikova:items/wd"
+  }
+}
