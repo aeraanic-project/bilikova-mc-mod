@@ -1,14 +1,18 @@
 {
   "item.bilikova.megafon": "Megafon",
   "entity.bilikova.tucnytest": "Tucnytest",
+  "block.bilikova.dlazdica": "Dlazdica",
   "item.bilikova.tucnytest_spawn_egg": "Tucnytest Spawn Egg",
   "block.bilikova.zelena_stena": "Zelena Stena",
-  "block.bilikova.bilikoblock": "Bilikova block",
   "itemGroup.tabbilikova_mobovia": "Bilikova mobovia",
+  "block.bilikova.bilikoblock": "Bilikova block",
+  "block.bilikova.a_podlaha": "Podlaha",
   "item.bilikova.kolobezka": "Kolobezka",
+  "block.bilikova.podlaha": "Stena",
   "subtitles.mnegafontest": "Prihobor",
   "item.bilikova.biliko_ingot": "Biliko Ingot",
   "item.bilikova.copper_square_of_summoning": "Copper Square Of Summoning",
+  "block.bilikova.lampa": "Lampa",
   "itemGroup.tabbilikovaitemy": "Bilikova itemy",
   "block.bilikova.brizolii_vonko": "Brizolii Vonko"
 }

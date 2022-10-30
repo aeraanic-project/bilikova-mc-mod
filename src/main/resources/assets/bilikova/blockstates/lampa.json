@@ -1,0 +1,19 @@
+{
+  "variants": {
+    "facing=north": {
+      "model": "bilikova:block/lampa"
+    },
+    "facing=east": {
+      "model": "bilikova:block/lampa",
+      "y": 90
+    },
+    "facing=south": {
+      "model": "bilikova:block/lampa",
+      "y": 180
+    },
+    "facing=west": {
+      "model": "bilikova:block/lampa",
+      "y": 270
+    }
+  }
+}

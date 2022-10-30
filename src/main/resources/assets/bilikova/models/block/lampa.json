@@ -1,0 +1,8 @@
+{
+  "parent": "bilikova:custom/lampa",
+  "textures": {
+    "all": "bilikova:blocks/sfsaf",
+    "particle": "bilikova:blocks/sfsaf",
+    "0": "bilikova:blocks/sfsaf"
+  }
+}

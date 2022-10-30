@@ -33,6 +33,10 @@ public class BilikovaModItems {
 			() -> new CopperSquareOfSummoningItem());
 	public static final RegistryObject<Item> KOLOBEZKA = REGISTRY.register("kolobezka", () -> new KolobezkaItem());
 	public static final RegistryObject<Item> MEGAFON = REGISTRY.register("megafon", () -> new MegafonItem());
+	public static final RegistryObject<Item> DLAZDICA = block(BilikovaModBlocks.DLAZDICA, BilikovaModTabs.TAB_BILIKOVAITEMY);
+	public static final RegistryObject<Item> PODLAHA = block(BilikovaModBlocks.PODLAHA, BilikovaModTabs.TAB_BILIKOVAITEMY);
+	public static final RegistryObject<Item> A_PODLAHA = block(BilikovaModBlocks.A_PODLAHA, BilikovaModTabs.TAB_BILIKOVAITEMY);
+	public static final RegistryObject<Item> LAMPA = block(BilikovaModBlocks.LAMPA, BilikovaModTabs.TAB_BILIKOVAITEMY);
 
 	private static RegistryObject<Item> block(RegistryObject<Block> block, CreativeModeTab tab) {
 		return REGISTRY.register(block.getId().getPath(), () -> new BlockItem(block.get(), new Item.Properties().tab(tab)));

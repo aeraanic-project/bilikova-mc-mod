@@ -341,6 +341,42 @@
       "locked_code": false,
       "registry_name": "megafon",
       "path": "~/items"
+    },
+    {
+      "name": "Dlazdica",
+      "type": "block",
+      "sortid": 24,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "dlazdica",
+      "path": "~/bloky"
+    },
+    {
+      "name": "Podlaha",
+      "type": "block",
+      "sortid": 25,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "podlaha",
+      "path": "~/bloky"
+    },
+    {
+      "name": "APodlaha",
+      "type": "block",
+      "sortid": 26,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "a_podlaha",
+      "path": "~/bloky"
+    },
+    {
+      "name": "Lampa",
+      "type": "block",
+      "sortid": 27,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "lampa",
+      "path": "~/bloky"
     }
   ],
   "variable_elements": [],
@@ -358,14 +394,18 @@
     "en_us": {
       "item.bilikova.megafon": "Megafon",
       "entity.bilikova.tucnytest": "Tucnytest",
+      "block.bilikova.dlazdica": "Dlazdica",
       "item.bilikova.tucnytest_spawn_egg": "Tucnytest Spawn Egg",
       "block.bilikova.zelena_stena": "Zelena Stena",
-      "block.bilikova.bilikoblock": "Bilikova block",
       "itemGroup.tabbilikova_mobovia": "Bilikova mobovia",
+      "block.bilikova.bilikoblock": "Bilikova block",
+      "block.bilikova.a_podlaha": "Podlaha",
       "item.bilikova.kolobezka": "Kolobezka",
+      "block.bilikova.podlaha": "Stena",
       "subtitles.mnegafontest": "Prihobor",
       "item.bilikova.biliko_ingot": "Biliko Ingot",
       "item.bilikova.copper_square_of_summoning": "Copper Square Of Summoning",
+      "block.bilikova.lampa": "Lampa",
       "itemGroup.tabbilikovaitemy": "Bilikova itemy",
       "block.bilikova.brizolii_vonko": "Brizolii Vonko"
     }
@@ -418,6 +458,7 @@
     "dependants": [],
     "mcreatorDependencies": [],
     "currentGenerator": "forge-1.18.2",
+    "credits": "Created using mod maker MCreator - https://mcreator.net/about",
     "modElementsPackage": "net.farpoproject.bilikova",
     "lockBaseModFiles": false
   },

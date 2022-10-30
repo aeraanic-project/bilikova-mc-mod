@@ -14,8 +14,8 @@ import net.minecraft.core.BlockPos;
 import java.util.List;
 import java.util.Collections;
 
-public class ZelenaStenaBlock extends Block {
-	public ZelenaStenaBlock() {
+public class PodlahaBlock extends Block {
+	public PodlahaBlock() {
 		super(BlockBehaviour.Properties.of(Material.STONE).sound(SoundType.STONE).strength(1f, 10f));
 	}
 

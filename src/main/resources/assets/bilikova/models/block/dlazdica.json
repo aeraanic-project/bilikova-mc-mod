@@ -1,0 +1,12 @@
+{
+  "parent": "block/cube",
+  "textures": {
+    "down": "bilikova:blocks/dlazdivce",
+    "up": "bilikova:blocks/dlazdivce",
+    "north": "bilikova:blocks/dlazdivce",
+    "east": "bilikova:blocks/dlazdivce",
+    "south": "bilikova:blocks/dlazdivce",
+    "west": "bilikova:blocks/dlazdivce",
+    "particle": "bilikova:blocks/dlazdivce"
+  }
+}
