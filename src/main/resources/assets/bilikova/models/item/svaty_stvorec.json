@@ -1,0 +1,7 @@
+{
+  "parent": "bilikova:custom/stvorec",
+  "textures": {
+    "0": "bilikova:blocks/stvir",
+    "particle": "bilikova:items/stvir"
+  }
+}

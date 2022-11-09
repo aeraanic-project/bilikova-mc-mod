@@ -377,6 +377,71 @@
       "locked_code": false,
       "registry_name": "lampa",
       "path": "~/bloky"
+    },
+    {
+      "name": "Modrasteba",
+      "type": "block",
+      "sortid": 28,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "modrasteba",
+      "path": "~/bloky"
+    },
+    {
+      "name": "Nemec",
+      "type": "livingentity",
+      "sortid": 29,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "nemec"
+    },
+    {
+      "name": "SvatyStvorec",
+      "type": "item",
+      "sortid": 30,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "svaty_stvorec"
+    },
+    {
+      "name": "Nasadit",
+      "type": "procedure",
+      "sortid": 30,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "nasadit",
+      "metadata": {
+        "dependencies": [
+          {
+            "name": "entity",
+            "type": "entity"
+          }
+        ]
+      }
+    },
+    {
+      "name": "SquareUpdateGamemode",
+      "type": "procedure",
+      "sortid": 31,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "square_update_gamemode",
+      "metadata": {
+        "dependencies": [
+          {
+            "name": "entity",
+            "type": "entity"
+          }
+        ]
+      }
+    },
+    {
+      "name": "Jeskova",
+      "type": "livingentity",
+      "sortid": 32,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "jeskova"
     }
   ],
   "variable_elements": [],
@@ -396,13 +461,19 @@
       "entity.bilikova.tucnytest": "Tucnytest",
       "block.bilikova.dlazdica": "Dlazdica",
       "item.bilikova.tucnytest_spawn_egg": "Tucnytest Spawn Egg",
+      "item.bilikova.nemec_spawn_egg": "Nemec Spawn Egg",
+      "item.bilikova.svaty_stvorec": "Svaty Stvorec",
       "block.bilikova.zelena_stena": "Zelena Stena",
       "itemGroup.tabbilikova_mobovia": "Bilikova mobovia",
       "block.bilikova.bilikoblock": "Bilikova block",
+      "entity.bilikova.nemec": "Nemec",
       "block.bilikova.a_podlaha": "Podlaha",
       "item.bilikova.kolobezka": "Kolobezka",
+      "entity.bilikova.jeskova": "Jeskova",
       "block.bilikova.podlaha": "Stena",
       "subtitles.mnegafontest": "Prihobor",
+      "block.bilikova.modrasteba": "Modrasteba",
+      "item.bilikova.jeskova_spawn_egg": "Jeskova Spawn Egg",
       "item.bilikova.biliko_ingot": "Biliko Ingot",
       "item.bilikova.copper_square_of_summoning": "Copper Square Of Summoning",
       "block.bilikova.lampa": "Lampa",

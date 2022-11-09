@@ -14,6 +14,7 @@ import net.minecraft.world.item.Item;
 import net.minecraft.world.item.CreativeModeTab;
 import net.minecraft.world.item.BlockItem;
 
+import net.farpoproject.bilikova.item.SvatyStvorecItem;
 import net.farpoproject.bilikova.item.MegafonItem;
 import net.farpoproject.bilikova.item.KolobezkaItem;
 import net.farpoproject.bilikova.item.CopperSquareOfSummoningItem;
@@ -37,6 +38,12 @@ public class BilikovaModItems {
 	public static final RegistryObject<Item> PODLAHA = block(BilikovaModBlocks.PODLAHA, BilikovaModTabs.TAB_BILIKOVAITEMY);
 	public static final RegistryObject<Item> A_PODLAHA = block(BilikovaModBlocks.A_PODLAHA, BilikovaModTabs.TAB_BILIKOVAITEMY);
 	public static final RegistryObject<Item> LAMPA = block(BilikovaModBlocks.LAMPA, BilikovaModTabs.TAB_BILIKOVAITEMY);
+	public static final RegistryObject<Item> MODRASTEBA = block(BilikovaModBlocks.MODRASTEBA, BilikovaModTabs.TAB_BILIKOVAITEMY);
+	public static final RegistryObject<Item> NEMEC = REGISTRY.register("nemec_spawn_egg", () -> new ForgeSpawnEggItem(BilikovaModEntities.NEMEC,
+			-2868421, -8971493, new Item.Properties().tab(BilikovaModTabs.TAB_BILIKOVA_MOBOVIA)));
+	public static final RegistryObject<Item> SVATY_STVOREC = REGISTRY.register("svaty_stvorec", () -> new SvatyStvorecItem());
+	public static final RegistryObject<Item> JESKOVA = REGISTRY.register("jeskova_spawn_egg", () -> new ForgeSpawnEggItem(BilikovaModEntities.JESKOVA,
+			-5045820, -7331037, new Item.Properties().tab(BilikovaModTabs.TAB_BILIKOVA_MOBOVIA)));
 
 	private static RegistryObject<Item> block(RegistryObject<Block> block, CreativeModeTab tab) {
 		return REGISTRY.register(block.getId().getPath(), () -> new BlockItem(block.get(), new Item.Properties().tab(tab)));

@@ -16,6 +16,7 @@ import net.minecraft.world.level.block.Block;
 
 import net.farpoproject.bilikova.block.ZelenaStenaBlock;
 import net.farpoproject.bilikova.block.PodlahaBlock;
+import net.farpoproject.bilikova.block.ModrastebaBlock;
 import net.farpoproject.bilikova.block.LampaBlock;
 import net.farpoproject.bilikova.block.DlazdicaBlock;
 import net.farpoproject.bilikova.block.BrizoliiVonkoBlock;
@@ -32,6 +33,7 @@ public class BilikovaModBlocks {
 	public static final RegistryObject<Block> PODLAHA = REGISTRY.register("podlaha", () -> new PodlahaBlock());
 	public static final RegistryObject<Block> A_PODLAHA = REGISTRY.register("a_podlaha", () -> new APodlahaBlock());
 	public static final RegistryObject<Block> LAMPA = REGISTRY.register("lampa", () -> new LampaBlock());
+	public static final RegistryObject<Block> MODRASTEBA = REGISTRY.register("modrasteba", () -> new ModrastebaBlock());
 
 	@Mod.EventBusSubscriber(bus = Mod.EventBusSubscriber.Bus.MOD, value = Dist.CLIENT)
 	public static class ClientSideHandler {

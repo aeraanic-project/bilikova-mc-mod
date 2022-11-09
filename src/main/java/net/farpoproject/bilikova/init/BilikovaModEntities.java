@@ -17,6 +17,8 @@ import net.minecraft.world.entity.EntityType;
 import net.minecraft.world.entity.Entity;
 
 import net.farpoproject.bilikova.entity.TucnytestEntity;
+import net.farpoproject.bilikova.entity.NemecEntity;
+import net.farpoproject.bilikova.entity.JeskovaEntity;
 import net.farpoproject.bilikova.BilikovaMod;
 
 @Mod.EventBusSubscriber(bus = Mod.EventBusSubscriber.Bus.MOD)
@@ -25,6 +27,16 @@ public class BilikovaModEntities {
 	public static final RegistryObject<EntityType<TucnytestEntity>> TUCNYTEST = register("tucnytest",
 			EntityType.Builder.<TucnytestEntity>of(TucnytestEntity::new, MobCategory.MONSTER).setShouldReceiveVelocityUpdates(true)
 					.setTrackingRange(64).setUpdateInterval(3).setCustomClientFactory(TucnytestEntity::new)
+
+					.sized(0.6f, 1.8f));
+	public static final RegistryObject<EntityType<NemecEntity>> NEMEC = register("nemec",
+			EntityType.Builder.<NemecEntity>of(NemecEntity::new, MobCategory.MONSTER).setShouldReceiveVelocityUpdates(true).setTrackingRange(64)
+					.setUpdateInterval(3).setCustomClientFactory(NemecEntity::new)
+
+					.sized(0.6f, 1.8f));
+	public static final RegistryObject<EntityType<JeskovaEntity>> JESKOVA = register("jeskova",
+			EntityType.Builder.<JeskovaEntity>of(JeskovaEntity::new, MobCategory.MONSTER).setShouldReceiveVelocityUpdates(true).setTrackingRange(64)
+					.setUpdateInterval(3).setCustomClientFactory(JeskovaEntity::new)
 
 					.sized(0.6f, 1.8f));
 
@@ -36,11 +48,15 @@ public class BilikovaModEntities {
 	public static void init(FMLCommonSetupEvent event) {
 		event.enqueueWork(() -> {
 			TucnytestEntity.init();
+			NemecEntity.init();
+			JeskovaEntity.init();
 		});
 	}
 
 	@SubscribeEvent
 	public static void registerAttributes(EntityAttributeCreationEvent event) {
 		event.put(TUCNYTEST.get(), TucnytestEntity.createAttributes().build());
+		event.put(NEMEC.get(), NemecEntity.createAttributes().build());
+		event.put(JESKOVA.get(), JeskovaEntity.createAttributes().build());
 	}
 }

@@ -1,0 +1,12 @@
+{
+  "parent": "block/cube",
+  "textures": {
+    "down": "bilikova:blocks/modrasrtwe",
+    "up": "bilikova:blocks/modrasrtwe",
+    "north": "bilikova:blocks/modrasrtwe",
+    "east": "bilikova:blocks/modrasrtwe",
+    "south": "bilikova:blocks/modrasrtwe",
+    "west": "bilikova:blocks/modrasrtwe",
+    "particle": "bilikova:blocks/modrasrtwe"
+  }
+}
