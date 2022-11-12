@@ -18,6 +18,7 @@ import net.farpoproject.bilikova.block.ZelenaStenaBlock;
 import net.farpoproject.bilikova.block.PodlahaBlock;
 import net.farpoproject.bilikova.block.ModrastebaBlock;
 import net.farpoproject.bilikova.block.LampaBlock;
+import net.farpoproject.bilikova.block.HydrantBlock;
 import net.farpoproject.bilikova.block.DlazdicaBlock;
 import net.farpoproject.bilikova.block.BrizoliiVonkoBlock;
 import net.farpoproject.bilikova.block.BilikoblockBlock;
@@ -34,6 +35,7 @@ public class BilikovaModBlocks {
 	public static final RegistryObject<Block> A_PODLAHA = REGISTRY.register("a_podlaha", () -> new APodlahaBlock());
 	public static final RegistryObject<Block> LAMPA = REGISTRY.register("lampa", () -> new LampaBlock());
 	public static final RegistryObject<Block> MODRASTEBA = REGISTRY.register("modrasteba", () -> new ModrastebaBlock());
+	public static final RegistryObject<Block> HYDRANT = REGISTRY.register("hydrant", () -> new HydrantBlock());
 
 	@Mod.EventBusSubscriber(bus = Mod.EventBusSubscriber.Bus.MOD, value = Dist.CLIENT)
 	public static class ClientSideHandler {

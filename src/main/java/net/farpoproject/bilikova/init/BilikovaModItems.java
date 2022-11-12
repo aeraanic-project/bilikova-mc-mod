@@ -15,6 +15,7 @@ import net.minecraft.world.item.CreativeModeTab;
 import net.minecraft.world.item.BlockItem;
 
 import net.farpoproject.bilikova.item.SvatyStvorecItem;
+import net.farpoproject.bilikova.item.OstenItem;
 import net.farpoproject.bilikova.item.MegafonItem;
 import net.farpoproject.bilikova.item.KolobezkaItem;
 import net.farpoproject.bilikova.item.CopperSquareOfSummoningItem;
@@ -44,6 +45,8 @@ public class BilikovaModItems {
 	public static final RegistryObject<Item> SVATY_STVOREC = REGISTRY.register("svaty_stvorec", () -> new SvatyStvorecItem());
 	public static final RegistryObject<Item> JESKOVA = REGISTRY.register("jeskova_spawn_egg", () -> new ForgeSpawnEggItem(BilikovaModEntities.JESKOVA,
 			-5045820, -7331037, new Item.Properties().tab(BilikovaModTabs.TAB_BILIKOVA_MOBOVIA)));
+	public static final RegistryObject<Item> OSTEN = REGISTRY.register("osten", () -> new OstenItem());
+	public static final RegistryObject<Item> HYDRANT = block(BilikovaModBlocks.HYDRANT, BilikovaModTabs.TAB_BILIKOVAITEMY);
 
 	private static RegistryObject<Item> block(RegistryObject<Block> block, CreativeModeTab tab) {
 		return REGISTRY.register(block.getId().getPath(), () -> new BlockItem(block.get(), new Item.Properties().tab(tab)));

@@ -442,6 +442,24 @@
       "compiles": true,
       "locked_code": false,
       "registry_name": "jeskova"
+    },
+    {
+      "name": "Osten",
+      "type": "tool",
+      "sortid": 33,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "osten",
+      "path": "~/items"
+    },
+    {
+      "name": "Hydrant",
+      "type": "block",
+      "sortid": 34,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "hydrant",
+      "path": "~/bloky"
     }
   ],
   "variable_elements": [],
@@ -458,27 +476,29 @@
   "language_map": {
     "en_us": {
       "item.bilikova.megafon": "Megafon",
-      "entity.bilikova.tucnytest": "Tucnytest",
+      "block.bilikova.hydrant": "Hydrant",
       "block.bilikova.dlazdica": "Dlazdica",
       "item.bilikova.tucnytest_spawn_egg": "Tucnytest Spawn Egg",
-      "item.bilikova.nemec_spawn_egg": "Nemec Spawn Egg",
       "item.bilikova.svaty_stvorec": "Svaty Stvorec",
-      "block.bilikova.zelena_stena": "Zelena Stena",
-      "itemGroup.tabbilikova_mobovia": "Bilikova mobovia",
-      "block.bilikova.bilikoblock": "Bilikova block",
       "entity.bilikova.nemec": "Nemec",
-      "block.bilikova.a_podlaha": "Podlaha",
-      "item.bilikova.kolobezka": "Kolobezka",
+      "itemGroup.tabbilikova_mobovia": "Bilikova mobovia",
       "entity.bilikova.jeskova": "Jeskova",
-      "block.bilikova.podlaha": "Stena",
       "subtitles.mnegafontest": "Prihobor",
-      "block.bilikova.modrasteba": "Modrasteba",
-      "item.bilikova.jeskova_spawn_egg": "Jeskova Spawn Egg",
       "item.bilikova.biliko_ingot": "Biliko Ingot",
       "item.bilikova.copper_square_of_summoning": "Copper Square Of Summoning",
-      "block.bilikova.lampa": "Lampa",
       "itemGroup.tabbilikovaitemy": "Bilikova itemy",
-      "block.bilikova.brizolii_vonko": "Brizolii Vonko"
+      "block.bilikova.brizolii_vonko": "Brizolii Vonko",
+      "entity.bilikova.tucnytest": "Tucnytest",
+      "item.bilikova.nemec_spawn_egg": "Nemec Spawn Egg",
+      "block.bilikova.zelena_stena": "Zelena Stena",
+      "block.bilikova.bilikoblock": "Bilikova block",
+      "block.bilikova.a_podlaha": "Podlaha",
+      "item.bilikova.kolobezka": "Kolobezka",
+      "block.bilikova.podlaha": "Stena",
+      "block.bilikova.modrasteba": "Modrasteba",
+      "item.bilikova.jeskova_spawn_egg": "Jeskova Spawn Egg",
+      "block.bilikova.lampa": "Lampa",
+      "item.bilikova.osten": "Osten"
     }
   },
   "foldersRoot": {

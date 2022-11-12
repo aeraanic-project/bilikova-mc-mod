@@ -1,0 +1,12 @@
+{
+  "parent": "block/cube",
+  "textures": {
+    "down": "bilikova:blocks/sddsa",
+    "up": "bilikova:blocks/sddsa",
+    "north": "bilikova:blocks/sddsa",
+    "east": "bilikova:blocks/sddsa",
+    "south": "bilikova:blocks/sddsa",
+    "west": "bilikova:blocks/sddsa",
+    "particle": "bilikova:blocks/sddsa"
+  }
+}
